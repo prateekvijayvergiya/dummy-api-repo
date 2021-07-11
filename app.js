@@ -30,7 +30,7 @@ db.once("open", function() {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // const port = process.env.port || 8080
-const port = "3000";
+const port = "5000";
 app.use("/api", router);
 app.listen(port);
 
